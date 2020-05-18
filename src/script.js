@@ -1,19 +1,19 @@
 const suits = [
   {
     name: 'Hearts',
-    icon: 'H'
+    icon: '&heartsuit;'
   },
   {
     name: 'Spades',
-    icon: 'S'
+    icon: '&spadesuit;'
   },
   {
     name: 'Diamonds',
-    icon: 'D'
+    icon: '&diamondsuit;'
   },
   {
     name: 'Clubs',
-    icon: 'C'
+    icon: '&clubsuit;'
   }
 ]
 
