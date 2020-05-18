@@ -106,7 +106,7 @@ $(function() {
   }
 
   function getCell(suit, rank) {
-    const cell = $('<td></td>').text(`${rank.character} ${suit.icon}`)
+    const cell = $('<td></td>').html(`${rank.character} <span class="icon">${suit.icon}</span>`)
     cell.on('click', () => toggleSelectedCell(cell))
     return cell
   }
